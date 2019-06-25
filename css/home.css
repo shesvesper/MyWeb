@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	width: 100%;
+	margin: 0;
+	background-color: white;
+}
+#home {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	overflow: auto;
+}
+.picture {
+	width: 63%;
+	height: 100%;
+	margin: 0;
+	float: left;
+	position: fixed;
+}
+.name {
+	color: #1C1C1C;
+	float: right;
+	font-size: 140px;
+	font-family: coda;
+	font-weight: 400;
+	text-align: right;
+	margin-top: 420px;
+	width: 95%;
+	position: fixed;
+	letter-spacing: 10px;
+	word-spacing: -9px;
+	clear: both;
+	font-style: normal;
+}
+#nav {
+	float: right;
+	text-align: right;
+	width: 95%;
+	margin-right: 5%;
+	margin-top: 161px;
+}
+#nav .item {
+	text-align: right;
+	font-family: coda;
+	font-style: normal;
+	font-weight: 400;
+	color: #1C1C1C;
+	text-decoration: none;
+	font-size: 30px;
+	line-height: 55px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 0 10px;
+}
+#nav .item:hover {
+	background-color: #1C1C1C;
+	color: white;
+}
+
+@media screen and (max-width: 840px) {
+.name {
+	font-size: 110px;
+}
+#nav .item {
+	font-size: 25px;
+}
+}
+
+@media screen and (max-width: 415px) {
+#home {
+	display: block;
+	z-index: 1;
+    background-image: -webkit-linear-gradient(right, rgba(0,0,0,0.70) 0%, rgba(0,0,0,0.70) 100%);
+	background-image: -o-linear-gradient(right, rgba(0,0,0,0.70) 0%, rgba(0,0,0,0.70) 100%);
+	background-image: linear-gradient(to left, rgba(0,0,0,0.70) 0%, rgba(0,0,0,0.70) 100%);
+	margin-bottom: -1%;
+	height: 100%;
+	overflow: auto;
+}
+#home .name {
+	width: 104%;
+	color: #fff;
+	font-size: 55px;
+	text-align: center;
+	position: fixed;
+	letter-spacing: 17px;
+	word-spacing: -18px;
+	opacity: 1;
+	margin-top: 19%;
+	float: none;
+}
+#nav {
+	overflow: hidden;
+	position: relative;
+	opacity: 1;
+	text-align: center;
+	width: 100%;
+	z-index: 10;
+	display: block;
+	margin-bottom: 134px;
+}
+#nav .item {
+	width: 100px;
+	text-align: center;
+	font-family: coda;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 55px;
+	padding: 3px 5px;;
+	border: solid 1px #fff;
+	float: none;
+}
+	#nav .item:hover{
+		color:#fff;
+		background: black;
+		border: none;
+	}
+.picture {
+	opacity: 1;
+	z-index: -10;
+	height: 100%;
+	width: auto;
+	margin: 0;
+	float: none;
+}
+}
