@@ -181,11 +181,12 @@ body{
 	opacity: 1;
 	display: block;
 }
+
 @font-face{
 	font-family:ovo;
-	src:url(font/Ovo.ttf);
+	src:url(../font/Ovo.ttf);
 }
 @font-face{
 	font-family:cardo;
-	src:url(font/Cardo-Regular.ttf);
+	src:url(../font/Cardo-Regular.ttf);
 }
