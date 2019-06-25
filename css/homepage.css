@@ -180,3 +180,11 @@ body{
 	opacity: 1;
 	display: block;
 }
+@font-face{
+	font-family:ovo;
+	src:url("font/Ovo.tff");
+}
+@font-face{
+	font-family:cardo;
+	src:url("font/Cardo-Regular.tff");
+}
