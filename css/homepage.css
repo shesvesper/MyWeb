@@ -56,6 +56,9 @@ body{
 	margin: auto;
 	display: block;
 	position: absolute;
+	font-family: montaga;
+	font-style: normal;
+	font-weight: 400;
 }
 .name{
 	line-height: 75px;
@@ -179,6 +182,27 @@ body{
     transform: none;
 	opacity: 1;
 	display: block;
+}
+
+#language{
+	float: right;
+	margin-top: 32px;
+	margin-right: 32px;
+}
+#language a{
+	font-family: cardo;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	font-weight: lighter;
+	padding-left: 3px;
+	padding-right: 3px;
+	line-height: 25px;
+	border: solid 1px #fff;
+}
+#language a:hover{
+	background: #fff;
+	color:#000000;
 }
 @font-face{
 	font-family:ovo;

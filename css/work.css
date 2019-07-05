@@ -5,14 +5,6 @@
 	margin: 0;
 	padding: 0;
 }
-@font-face{
-	font-family:ovo;
-	src:url(../font/Ovo.ttf);
-}
-@font-face{
-	font-family:cardo;
-	src:url(../font/Cardo-Regular.ttf);
-}
 body{
 	margin: auto;
 	height: 100%;
@@ -222,4 +214,12 @@ body{
 .website a:hover,
 .poster a:hover{
 	text-shadow: 0px 0px 8px;
+}
+@font-face{
+	font-family:ovo;
+	src:url(../font/Ovo.ttf);
+}
+@font-face{
+	font-family:cardo;
+	src:url(../font/Cardo-Regular.ttf);
 }
