@@ -212,3 +212,11 @@ body{
 	background: #fff;
 	color:#000000;
 }
+@font-face{
+	font-family:ovo;
+	src:url(../font/Ovo.ttf);
+}
+@font-face{
+	font-family:cardo;
+	src:url(../font/Cardo-Regular.ttf);
+}
