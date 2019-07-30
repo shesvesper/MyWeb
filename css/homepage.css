@@ -190,7 +190,7 @@ body{
 	margin-right: 32px;
 }
 #language a{
-	font-family: cardo;
+	font-family: LiBian;
 	color: #FFFFFF;
 	text-decoration: none;
 	text-align: center;
@@ -211,4 +211,8 @@ body{
 @font-face{
 	font-family:cardo;
 	src:url(../font/Cardo-Regular.ttf);
+}
+@font-face{
+	font-family:LiBian;
+	src:url(../font/FZLB.ttf);
 }
